@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		B596C60E267F2500003EDFBC /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B596C60D267F2500003EDFBC /* FirstVC.swift */; };
 		B596C611267F2510003EDFBC /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B596C610267F2510003EDFBC /* SecondVC.swift */; };
 		B596C61A267F27A7003EDFBC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B596C619267F27A7003EDFBC /* GoogleService-Info.plist */; };
+		B596C62E267F9AFF003EDFBC /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B596C62D267F9AFF003EDFBC /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		B596C60D267F2500003EDFBC /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
 		B596C610267F2510003EDFBC /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 		B596C619267F27A7003EDFBC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B596C62D267F9AFF003EDFBC /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 		B596C618267F2602003EDFBC /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				B596C62D267F9AFF003EDFBC /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -134,7 +137,6 @@
 				674B080FCEE5481E247D629D /* Pods-Breakpoint.debug.xcconfig */,
 				33E19AD2B8F3A1610B8CA474 /* Pods-Breakpoint.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -257,6 +259,7 @@
 				B596C60E267F2500003EDFBC /* FirstVC.swift in Sources */,
 				B596C611267F2510003EDFBC /* SecondVC.swift in Sources */,
 				B596C5FA267F23EA003EDFBC /* SceneDelegate.swift in Sources */,
+				B596C62E267F9AFF003EDFBC /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
