@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nsx-F6-xkg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yzn-cc-G5r">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -40,10 +40,10 @@
             </objects>
             <point key="canvasLocation" x="67" y="-678"/>
         </scene>
-        <!--View Controller-->
+        <!--AuthVC-->
         <scene sceneID="iUC-LU-n9z">
             <objects>
-                <viewController id="yzn-cc-G5r" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AuthVC" id="yzn-cc-G5r" customClass="AuthVC" customModule="Breakpoint" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hLv-9Z-jqg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -63,7 +63,7 @@
                                 <color key="textColor" red="0.5607843137254902" green="0.81176470588235294" blue="0.30588235294117649" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CdT-B8-biS">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CdT-B8-biS" customClass="ShadowView" customModule="Breakpoint" customModuleProvider="target">
                                 <rect key="frame" x="35.666666666666657" y="189" width="343" height="358"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="qEd-GK-qYt">
@@ -120,13 +120,13 @@
                         <viewLayoutGuide key="safeArea" id="MvI-xm-XkG"/>
                         <color key="backgroundColor" red="0.16078431372549018" green="0.16862745098039217" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="maw-aO-xjQ" firstAttribute="top" secondItem="MvI-xm-XkG" secondAttribute="top" id="4uT-9c-DYl"/>
-                            <constraint firstItem="maw-aO-xjQ" firstAttribute="leading" secondItem="MvI-xm-XkG" secondAttribute="leading" id="7Rr-Uw-eOP"/>
+                            <constraint firstItem="maw-aO-xjQ" firstAttribute="top" secondItem="hLv-9Z-jqg" secondAttribute="top" id="4uT-9c-DYl"/>
+                            <constraint firstItem="maw-aO-xjQ" firstAttribute="leading" secondItem="hLv-9Z-jqg" secondAttribute="leading" id="7Rr-Uw-eOP"/>
                             <constraint firstItem="CdT-B8-biS" firstAttribute="centerY" secondItem="hLv-9Z-jqg" secondAttribute="centerY" id="G8l-1F-4e6"/>
                             <constraint firstItem="CdT-B8-biS" firstAttribute="centerX" secondItem="hLv-9Z-jqg" secondAttribute="centerX" id="a2k-bj-0fu"/>
                             <constraint firstItem="Rig-8i-Rf7" firstAttribute="leading" secondItem="MvI-xm-XkG" secondAttribute="leading" constant="45" id="ey0-nR-TJ3"/>
                             <constraint firstItem="Rig-8i-Rf7" firstAttribute="top" secondItem="MvI-xm-XkG" secondAttribute="top" constant="30" id="hZD-Qo-zZ0"/>
-                            <constraint firstItem="maw-aO-xjQ" firstAttribute="trailing" secondItem="MvI-xm-XkG" secondAttribute="trailing" id="mNT-Xj-9py"/>
+                            <constraint firstItem="maw-aO-xjQ" firstAttribute="trailing" secondItem="hLv-9Z-jqg" secondAttribute="trailing" id="mNT-Xj-9py"/>
                             <constraint firstItem="MvI-xm-XkG" firstAttribute="trailing" secondItem="Rig-8i-Rf7" secondAttribute="trailing" constant="45" id="py0-c1-0Zm"/>
                         </constraints>
                     </view>
@@ -135,10 +135,10 @@
             </objects>
             <point key="canvasLocation" x="-2870" y="-559"/>
         </scene>
-        <!--View Controller-->
+        <!--LoginVC-->
         <scene sceneID="Bdw-d1-gEQ">
             <objects>
-                <viewController id="LRc-OA-lrR" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginVC" id="LRc-OA-lrR" customClass="LoginVC" customModule="Breakpoint" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yKh-bF-3HK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -164,13 +164,13 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="1hK-zb-14R">
                                 <rect key="frame" x="20" y="58" width="374" height="161"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="email sign in" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T0Z-Ir-c6R">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="email sign in" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T0Z-Ir-c6R">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="21"/>
                                         <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
                                         <color key="textColor" red="0.25490196079999999" green="0.27058823529999998" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T6f-Mo-3QV">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T6f-Mo-3QV" customClass="InsertTextField" customModule="Breakpoint" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="41" width="374" height="50"/>
                                         <color key="backgroundColor" red="0.21176470589999999" green="0.21176470589999999" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -180,7 +180,7 @@
                                         <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5jb-d8-CX9">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5jb-d8-CX9" customClass="InsertTextField" customModule="Breakpoint" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="111" width="374" height="50"/>
                                         <color key="backgroundColor" red="0.21176470589999999" green="0.21176470589999999" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>

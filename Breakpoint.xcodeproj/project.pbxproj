@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3A3F7B732B5C41CCB28AAC7F /* Pods_Breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53989CF826AF8ECF81732D1C /* Pods_Breakpoint.framework */; };
+		B5692C2C2680ED690067446D /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5692C2B2680ED690067446D /* AuthVC.swift */; };
+		B5692C2F2680EDBE0067446D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5692C2E2680EDBE0067446D /* LoginVC.swift */; };
+		B5692C322680EE1D0067446D /* InsertTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5692C312680EE1D0067446D /* InsertTextField.swift */; };
+		B573A7F126B99A5E0049FCB4 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B573A7F026B99A5E0049FCB4 /* ShadowView.swift */; };
 		B596C5F8267F23EA003EDFBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B596C5F7267F23EA003EDFBC /* AppDelegate.swift */; };
 		B596C5FA267F23EA003EDFBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B596C5F9267F23EA003EDFBC /* SceneDelegate.swift */; };
 		B596C5FF267F23EA003EDFBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B596C5FD267F23EA003EDFBC /* Main.storyboard */; };
@@ -23,6 +27,10 @@
 		33E19AD2B8F3A1610B8CA474 /* Pods-Breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakpoint.release.xcconfig"; path = "Target Support Files/Pods-Breakpoint/Pods-Breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 		53989CF826AF8ECF81732D1C /* Pods_Breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		674B080FCEE5481E247D629D /* Pods-Breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakpoint.debug.xcconfig"; path = "Target Support Files/Pods-Breakpoint/Pods-Breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
+		B5692C2B2680ED690067446D /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		B5692C2E2680EDBE0067446D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		B5692C312680EE1D0067446D /* InsertTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertTextField.swift; sourceTree = "<group>"; };
+		B573A7F026B99A5E0049FCB4 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		B596C5F4267F23EA003EDFBC /* Breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B596C5F7267F23EA003EDFBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B596C5F9267F23EA003EDFBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +106,8 @@
 			children = (
 				B596C60D267F2500003EDFBC /* FirstVC.swift */,
 				B596C610267F2510003EDFBC /* SecondVC.swift */,
+				B5692C2B2680ED690067446D /* AuthVC.swift */,
+				B5692C2E2680EDBE0067446D /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -105,6 +115,8 @@
 		B596C614267F2552003EDFBC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B5692C312680EE1D0067446D /* InsertTextField.swift */,
+				B573A7F026B99A5E0049FCB4 /* ShadowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -255,10 +267,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B573A7F126B99A5E0049FCB4 /* ShadowView.swift in Sources */,
+				B5692C2C2680ED690067446D /* AuthVC.swift in Sources */,
 				B596C5F8267F23EA003EDFBC /* AppDelegate.swift in Sources */,
+				B5692C2F2680EDBE0067446D /* LoginVC.swift in Sources */,
 				B596C60E267F2500003EDFBC /* FirstVC.swift in Sources */,
 				B596C611267F2510003EDFBC /* SecondVC.swift in Sources */,
 				B596C5FA267F23EA003EDFBC /* SceneDelegate.swift in Sources */,
+				B5692C322680EE1D0067446D /* InsertTextField.swift in Sources */,
 				B596C62E267F9AFF003EDFBC /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
